@@ -49,7 +49,7 @@ train_nan_df['allMissing'] = (train_nan_df['missingCount'] == 4).astype(int)
 test_nan_df = pd.DataFrame(unique_test_images, columns=['ImageId'])
 
 
-BATCH_SIZE = 8
+BATCH_SIZE = 2
 
 def create_datagen():
     return ImageDataGenerator(
