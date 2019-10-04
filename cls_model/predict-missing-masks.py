@@ -36,7 +36,7 @@ from tqdm import tqdm
 
 # In[2]:
 
-train_df = pd.read_csv('../input/train.csv')
+train_df = pd.read_csv('../input/train.csv', engine='python')
 
 # 查看图片大小
 path = os.path.join("../input/train_images", "00031f466.jpg")
@@ -44,7 +44,7 @@ img = Image.open(path)
 
 # In[4]:
 
-submission_df = pd.read_csv('../input/sample_submission.csv')
+submission_df = pd.read_csv('../input/sample_submission.csv', engine='python')
 
 
 
@@ -292,3 +292,5 @@ history_df.to_csv('../output/history.csv', index=False)
 train_nan_df.to_csv('../output/train_missing_count.csv', index=False)
 test_nan_df.to_csv('../output/test_missing_count.csv', index=False)
 
+
+# nohup python -u predict-missing-masks.py > step01.log 2>&1 &
