@@ -12,7 +12,7 @@ from keras.models import Sequential
 from keras.optimizers import Nadam
 from keras.preprocessing.image import ImageDataGenerator
 
-os.environ["CUDA_VISIBLE_DEVICES"] = '0'   #指定第一块GPU可用
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'   #指定第一块GPU可用  "0,1"
 config = tf.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.95  # 程序最多只能占用指定gpu50%的显存
 config.gpu_options.allow_growth = True      #程序按需申请内存
@@ -30,20 +30,11 @@ unique_test_images = submission_df['ImageId_ClassId'].apply(
     lambda x: x.split('_')[0]
 ).unique()
 
-# # EDA
-# 
-# This EDA will mainly focus on detecting how the null masks are distributed. We will group all the `ImageId_ClassId` by their respective ImageId, and keep track of the number of missing masks for each image.
-
-# In[6]:
-
 
 train_df['isNan'] = pd.isna(train_df['EncodedPixels'])
 train_df['ImageId'] = train_df['ImageId_ClassId'].apply(
     lambda x: x.split('_')[0]
 )
-
-
-# In[7]:
 
 
 train_nan_df = train_df.groupby(by='ImageId', axis=0).agg('sum')
@@ -159,8 +150,6 @@ history = model.fit_generator(
     callbacks=[checkpoint, reduce_lr]
 )
 
-
-# In[16]:
 
 history_df = pd.DataFrame(history.history)
 history_df[['loss', 'val_loss']].plot()
