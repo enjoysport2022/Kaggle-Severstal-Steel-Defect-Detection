@@ -14,7 +14,7 @@ from keras.preprocessing.image import ImageDataGenerator
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'   #指定第一块GPU可用
 config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.9  # 程序最多只能占用指定gpu50%的显存
+config.gpu_options.per_process_gpu_memory_fraction = 0.95  # 程序最多只能占用指定gpu50%的显存
 config.gpu_options.allow_growth = True      #程序按需申请内存
 sess = tf.Session(config=config)
 
@@ -55,7 +55,7 @@ train_nan_df['allMissing'] = (train_nan_df['missingCount'] == 4).astype(int)
 test_nan_df = pd.DataFrame(unique_test_images, columns=['ImageId'])
 
 
-BATCH_SIZE = 16
+BATCH_SIZE = 4
 
 def create_datagen():
     return ImageDataGenerator(
