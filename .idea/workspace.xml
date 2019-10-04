@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7037e0-cd2c-4565-b52c-c89fb9120777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cls_model/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/sample_submission.csv%3FGoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&amp;Expires=1570368769&amp;Signature=iFrdxtJwtnfJLbL3f%2FwdtiSt4U%2FXuL7uufILstzdCMRW%2FgPbtI7RUJCmQqHd4%2F4QRPtMn5F4ZEnkmcjDzRVMQZ2uYUEQLNjhru6ra63ijEJdw+YF1d4Vx.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/severstal-mlcomp-catalyst-infer-0-90672-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/severstal-mlcomp-catalyst-infer-0-90672-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/severstal-simple-2-step-pipeline-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/.ipynb_checkpoints/severstal-simple-2-step-pipeline-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/severstal-mlcomp-catalyst-infer-0-90672.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/severstal-mlcomp-catalyst-infer-0-90672.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/severstal-simple-2-step-pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/severstal-simple-2-step-pipeline.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,65 +13,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/kaggle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9284">
-              <caret line="422" column="4" selection-start-line="422" selection-start-column="4" selection-end-line="422" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/submit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7326">
-              <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1480" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/model.py">
+        <entry file="file://$PROJECT_DIR$/cls_model/predict-missing-masks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="-906">
+              <caret line="231" selection-start-line="231" selection-end-line="231" />
               <folding>
-                <element signature="e#37#58#0" expanded="true" />
+                <element signature="e#726#735#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/ensemble.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -93,6 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/script/20190910/code/dummy_11a/ensemble.py" />
+        <option value="$PROJECT_DIR$/cls_model/predict-missing-masks.py" />
       </list>
     </option>
   </component>
@@ -116,12 +73,12 @@
             <path>
               <item name="Steel Defect Dection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Steel Defect Dection" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="cls_model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Steel Defect Dection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Steel Defect Dection" type="462c0819:PsiDirectoryNode" />
-              <item name="notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="save_model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,13 +114,27 @@
       <option name="presentableId" value="Default" />
       <updated>1569997279451</updated>
     </task>
+    <task id="LOCAL-00001" summary="jupyter-notebook更新">
+      <created>1570182577773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570182577773</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jupyter-notebook更新2">
+      <created>1570182630736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570182630736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13797314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08974359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -174,7 +145,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2632653" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4020408" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -182,6 +153,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="leetcode" order="3" side_tool="true" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jupyter-notebook更新" />
+    <MESSAGE value="jupyter-notebook更新2" />
+    <option name="LAST_COMMIT_MESSAGE" value="jupyter-notebook更新2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/script/20190910/result/resnet18-seg-full-softmax-foldb1-1-4balance/log.train0.txt">
@@ -220,20 +196,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/kaggle.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9284">
-          <caret line="422" column="4" selection-start-line="422" selection-start-column="4" selection-end-line="422" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -244,10 +210,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/submit.py">
+    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7326">
-          <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
+        <state relative-caret-position="1034">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#37#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -256,12 +225,36 @@
         <state relative-caret-position="-1480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/model.py">
+    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/resent34_cls_01/submit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="7326">
+          <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <element signature="e#37#58#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/20190910/code/dummy_11a/kaggle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="422" column="4" selection-start-line="422" selection-start-column="4" selection-end-line="422" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cls_model/predict-missing-masks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-906">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="e#726#735#0" expanded="true" />
           </folding>
         </state>
       </provider>
