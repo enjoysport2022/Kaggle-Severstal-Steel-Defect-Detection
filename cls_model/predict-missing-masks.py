@@ -178,7 +178,7 @@ def create_flow(datagen, subset):
         directory='../input/train_images/',
         x_col='ImageId', 
         y_col='allMissing', 
-        class_mode=None,
+        class_mode="binary",
         target_size=(1600, 256),
         batch_size=BATCH_SIZE,
         subset=subset
