@@ -127,10 +127,10 @@ def do_valid(net, valid_loader, out_dir=None):
 
 def run_train():
     out_dir = \
-        '/root/share/project/kaggle/2019/steel/result1/resnet34-cls-full-foldb0-0'
+        '/home/zhongrunxing/kaggle/Kaggle-Severstal-Steel-Defect-Detection/script/20190910/result/resnet34-cls-full-foldb0-0'
 
     initial_checkpoint = \
-        '/root/share/project/kaggle/2019/steel/result1/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth'
+        '/home/zhongrunxing/kaggle/Kaggle-Severstal-Steel-Defect-Detection/script/20190910/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model_2.pth'
 
 
 
