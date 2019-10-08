@@ -1,5 +1,8 @@
 #https://github.com/junfu1115/DANet
 
+import sys
+sys.path.append('../')
+
 from common  import *
 from dataset import *
 from resnet  import *
